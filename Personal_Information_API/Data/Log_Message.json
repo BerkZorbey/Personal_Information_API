@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "LogMessage": "[Response] HTTP GET - /api/Personal responsed 200 in 3 ms",
+    "CreatedDate": "2022-10-14T16:47:32.4403202+03:00"
+  },
+  {
+    "Id": 2,
+    "LogMessage": "[Response] HTTP GET - /api/Personal/5 responsed 200 in 7 ms",
+    "CreatedDate": "2022-10-14T16:47:43.67544+03:00"
+  },
+  {
+    "Id": 3,
+    "LogMessage": "[Response] HTTP GET - /api/Personal/7 responsed 200 in 3198 ms",
+    "CreatedDate": "2022-10-14T17:39:16.9776875+03:00"
+  },
+  {
+    "Id": 4,
+    "LogMessage": "[Response] HTTP GET - /api/Personal/5 responsed 200 in 919 ms",
+    "CreatedDate": "2022-10-14T17:45:12.128663+03:00"
+  },
+  {
+    "Id": 5,
+    "LogMessage": "[Response] HTTP GET - /api/Personal/2 responsed 200 in 9 ms",
+    "CreatedDate": "2022-10-14T17:45:29.5032789+03:00"
+  },
+  {
+    "Id": 6,
+    "LogMessage": "[Error] Http GET - /api/Personal/75 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:20:19.932673+03:00"
+  },
+  {
+    "Id": 7,
+    "LogMessage": "[Error] Http GET - /api/Personal/75 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:22:27.2760467+03:00"
+  },
+  {
+    "Id": 8,
+    "LogMessage": "[Error] Http GET - /api/Personal/105 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:31:25.3342172+03:00"
+  },
+  {
+    "Id": 9,
+    "LogMessage": "[Error] Http GET - /api/Personal/71 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:32:06.7441907+03:00"
+  },
+  {
+    "Id": 10,
+    "LogMessage": "[Error] Http GET - /api/Personal/53 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:33:28.0147164+03:00"
+  },
+  {
+    "Id": 11,
+    "LogMessage": "[Error] Http GET - /api/Personal/51 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:34:23.2306305+03:00"
+  },
+  {
+    "Id": 12,
+    "LogMessage": "[Error] Http GET - /api/Personal/72 -  Error Message: Error with 404 status code received. ",
+    "CreatedDate": "2022-10-17T15:35:37.3264259+03:00"
+  }
+]

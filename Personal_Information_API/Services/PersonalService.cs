@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace Personal_Information_API.Services
 {
-    public class PersonalService
+    public class PersonalService : IPersonalService
     {
         private string FileName => Path.Combine("Data", "Personal_Information.json");
 

@@ -11,8 +11,8 @@ namespace Personal_Information_API.Controllers
     [ApiController]
     public class PersonalController : ControllerBase
     {
-        private readonly PersonalService _personalService;
-        public PersonalController(PersonalService personalService)
+        private readonly IPersonalService _personalService;
+        public PersonalController(IPersonalService personalService)
         {
             _personalService = personalService;
         }

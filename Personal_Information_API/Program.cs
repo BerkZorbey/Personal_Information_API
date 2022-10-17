@@ -1,3 +1,4 @@
+using Personal_Information_API.Middlewares;
 using Personal_Information_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,9 @@ builder.Services.AddSwaggerGen(c =>
      c.EnableAnnotations();
 });
 
-builder.Services.AddTransient<PersonalService>();
+builder.Services.AddTransient<IPersonalService,PersonalService>();
+builder.Services.AddSingleton<ILoggerService,LoggerService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,6 +29,10 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseCustomExceptionMiddleware();
+
 app.MapControllers();
+
+
 
 app.Run();
