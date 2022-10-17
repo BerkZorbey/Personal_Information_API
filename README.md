@@ -7,5 +7,8 @@ Restful Api Geliştirin
 - Modellerde zorunlu alanların kontrolü yapılmalıdır.
 - Routing kullanılmalıdır.
 - Model binding işlemleri hem body den hemde query den yapılacak şekilde örneklendirilmelidir.
-Bonus:
 - Standart crud işlemlerine ek olarak, listeleme ve sıralama işlevleride eklenmelidir.
+- global loglama yapan bir middleware(sadece actiona girildi gibi çok basit düzeyde)
+
+- Database kullanmadan json dosyasına yazarak yapılan bir rest apı .
+
